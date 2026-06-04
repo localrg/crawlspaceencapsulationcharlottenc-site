@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Catawba Crawlspace Co. C mark</title>
+  <desc id="desc">Standalone custom C monogram for Catawba Crawlspace Co.</desc>
+  <defs>
+    <linearGradient id="panel" x1="72" y1="82" x2="436" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6fffb"/>
+      <stop offset="1" stop-color="#dff8f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#fbfcf9"/>
+  <rect x="70" y="70" width="372" height="372" rx="72" fill="url(#panel)" stroke="#dbe5df" stroke-width="5"/>
+  <path d="M348 155c-39-50-116-76-187-48-90 35-132 138-96 231 37 95 142 143 234 106 25-10 47-24 65-44" fill="none" stroke="#10261f" stroke-width="66" stroke-linecap="round"/>
+  <path d="M248 256h172" stroke="#d89b35" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="360" cy="390" r="17" fill="#38c7a4"/>
+</svg>

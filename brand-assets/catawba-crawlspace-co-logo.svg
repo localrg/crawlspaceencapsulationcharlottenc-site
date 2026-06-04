@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="340" viewBox="0 0 1120 340" role="img" aria-labelledby="title desc">
+  <title id="title">Catawba Crawlspace Co. logo</title>
+  <desc id="desc">Horizontal Catawba Crawlspace Co. logo with a custom C monogram.</desc>
+  <defs>
+    <linearGradient id="panel" x1="42" y1="56" x2="282" y2="292" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6fffb"/>
+      <stop offset="1" stop-color="#dff8f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#10261f" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1120" height="340" fill="#fbfcf9"/>
+  <g filter="url(#shadow)">
+    <rect x="58" y="48" width="246" height="246" rx="42" fill="url(#panel)" stroke="#dbe5df" stroke-width="3"/>
+    <path d="M242 103c-24-31-72-47-116-30-56 21-83 85-61 143 22 58 87 88 145 65 15-6 29-15 40-27" fill="none" stroke="#10261f" stroke-width="42" stroke-linecap="round"/>
+    <path d="M176 170h112" stroke="#d89b35" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="250" cy="254" r="10" fill="#38c7a4"/>
+  </g>
+  <g>
+    <text x="360" y="137" fill="#10261f" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="900" letter-spacing="0">Catawba</text>
+    <text x="360" y="207" fill="#10261f" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="900" letter-spacing="0">Crawlspace Co.</text>
+    <path d="M364 234h505" stroke="#d89b35" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
