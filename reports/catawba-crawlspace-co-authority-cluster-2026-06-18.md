@@ -7,7 +7,7 @@ Market: Charlotte, NC
 
 ## Outcome
 
-The Charlotte crawlspace site is complete for the topical authority pass and has been corrected to present the authority content as readable articles instead of directory-style resource cards.
+The Charlotte crawlspace site is complete for the topical authority pass, has been corrected to present the authority content as readable articles instead of directory-style resource cards, and now uses clean extensionless public URLs.
 
 The site now has a connected crawlspace knowledge base around four authority hubs:
 
@@ -50,19 +50,34 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Updated the sitemap to 48 public indexable URLs after adding `/blog/`.
 - Bumped the stylesheet cache key to `styles.css?v=20260618-blogposts`.
 
+## Extensionless URL and Authority Silo Correction
+
+- Removed `.html` from public canonical URLs, Open Graph URLs, sitemap URLs, footer links, article links, city links, and form redirect targets.
+- Added `.htaccess` redirects so old `.html` URLs 301 to the clean extensionless versions.
+- Kept the Google verification `.html` file working as an explicit exception.
+- Added homepage authority uplink sections to 44 supporting pages and archives.
+- Used the homepage anchor text `Crawlspace Encapsulation in Charlotte NC` from supporting service, problem, guide, local, blog, and city pages.
+- Kept supporting pages linked into the article/service structure while rolling the primary crawlspace authority back toward the homepage.
+- Bumped the stylesheet cache key to `styles.css?v=20260618-extensionless`.
+
 ## Deployment Proof
 
-- GitHub commit: `30f2a4d9a61df6c71ef23c40c10a140c8988c037`
+- GitHub commit: `823c2658f6d39ec5a954a79e7f47b08bed61ed28`
 - Branch: `main`
-- Hostinger deploy evidence: `site-factory/run-logs/charlotte-article-library-hostinger-deploy-20260618-143900.json`
-- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_143900.zip`
+- Hostinger deploy evidence: `site-factory/run-logs/charlotte-extensionless-silo-retry-hostinger-deploy-20260618-150522.json`
+- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_150522.zip`
+- Previous failed upload attempt: `site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json`
+- Upload failure note: the first Hostinger TUS PATCH returned 404, so the deploy helper was hardened to PATCH Hostinger's returned upload `Location` and retry fresh upload credentials.
 - Live homepage: 200 HTTPS
 - Live robots.txt: 200 HTTPS
 - Live sitemap.xml: 200 HTTPS
 - Live sitemap URL count: 48
 - Live article library: https://crawlspaceencapsulationcharlottenc.com/blog/
 - Live local article archive: https://crawlspaceencapsulationcharlottenc.com/local/
-- Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html
+- Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control
+- Verified clean local article: https://crawlspaceencapsulationcharlottenc.com/local/charlotte-clay-soil-crawlspace-moisture
+- Verified old `.html` redirects: representative article, service, city, and privacy-policy URLs 301 to extensionless URLs.
+- Verified Google exception: https://crawlspaceencapsulationcharlottenc.com/google0601bb32c31c28cd.html remains 200.
 
 ## Validation
 
@@ -71,7 +86,11 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Checks: 25 total, 0 failed
 - Local HTML files: 50
 - Sitemap URLs: 48
+- Sitemap `.html` URL count: 0
 - Internal link missing count: 0
+- Internal `.html` reference count: 0
+- Authority uplink missing count: 0
+- Homepage authority uplink pages: 44
 - Browser QA: article archive, blog index, and representative article pages rendered without horizontal overflow, with visible article metadata, article cards, forms present, and mobile navigation visible.
 
 ## Notes
