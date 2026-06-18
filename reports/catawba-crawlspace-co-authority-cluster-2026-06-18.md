@@ -7,7 +7,7 @@ Market: Charlotte, NC
 
 ## Outcome
 
-The Charlotte crawlspace site is complete for this topical authority pass and deployed live on Hostinger.
+The Charlotte crawlspace site is complete for the topical authority pass and has been corrected to present the authority content as readable articles instead of directory-style resource cards.
 
 The site now has a connected crawlspace knowledge base around four authority hubs:
 
@@ -39,6 +39,17 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Fixed mobile navigation so the header links and phone CTA remain visible on small screens.
 - Bumped the stylesheet cache key to `styles.css?v=20260618-authority2`.
 
+## Article Presentation Correction
+
+- Added a new article library at `/blog/`.
+- Changed the top navigation to `Home`, `Services`, `Articles`, and `Areas`.
+- Reworked `services/`, `problems/`, `guides/`, and `local/` into article-category archives.
+- Converted the 19 supporting authority pages into article-style pages with article metadata, reading labels, and "Read next" language.
+- Replaced the visible "pages in this section" / "Explore the cluster" pattern with article cards.
+- Updated the homepage authority section to point users into the article library.
+- Updated the sitemap to 48 public indexable URLs after adding `/blog/`.
+- Bumped the stylesheet cache key to `styles.css?v=20260618-blogposts`.
+
 ## Deployment Proof
 
 - GitHub commit: `68236436e8f5e0ed480f5cd321207d9626c9d5a2`
@@ -51,14 +62,17 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Live sitemap URL count: 47
 - Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html
 
+Article-library deployment is the next deploy step for this report revision.
+
 ## Validation
 
 - Static validation: passed
 - Validation file: `reports/static-validation.json`
-- Checks: 26 total, 0 failed
-- Local HTML files: 49
+- Checks: 25 total, 0 failed
+- Local HTML files: 50
+- Sitemap URLs: 48
 - Internal link missing count: 0
-- Browser QA: representative desktop and mobile pages rendered without horizontal overflow, with loaded images, forms present, and mobile navigation visible.
+- Browser QA: article archive, blog index, and representative article pages rendered without horizontal overflow, with visible article metadata, article cards, forms present, and mobile navigation visible.
 
 ## Notes
 

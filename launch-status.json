@@ -4,8 +4,8 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "topical_authority_cluster_deployed_verified",
-  "updated_at": "2026-06-18T16:47:48Z",
+  "current_phase": "article_library_presentation_ready_for_deploy",
+  "updated_at": "2026-06-18T18:38:05Z",
   "deployment": {
     "provider": "Hostinger static deploy",
     "github_commit": "68236436e8f5e0ed480f5cd321207d9626c9d5a2",
@@ -16,6 +16,7 @@
     "robots_verified": true,
     "sitemap_verified": true,
     "live_sitemap_url_count": 47,
+    "pending_sitemap_url_count_after_article_library_deploy": 48,
     "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html"
   },
   "seo": {
@@ -42,16 +43,30 @@
         "cost and decision pages",
         "Charlotte local proof pages"
       ]
+    },
+    "article_library_presentation": {
+      "ready_for_deploy": true,
+      "new_archive": "blog/index.html",
+      "article_count": 19,
+      "category_archives": [
+        "services/index.html",
+        "problems/index.html",
+        "guides/index.html",
+        "local/index.html"
+      ],
+      "nav_pattern": "Home, Services, Articles, Areas",
+      "stylesheet_cache_key": "styles.css?v=20260618-blogposts"
     }
   },
   "validation": {
     "static_validation": "reports/static-validation.json",
     "static_validation_passed": true,
-    "static_validation_total_checks": 26,
+    "static_validation_total_checks": 25,
     "static_validation_failed_checks": 0,
-    "local_html_files": 49,
+    "local_html_files": 50,
     "internal_link_missing_count": 0,
-    "browser_responsive_qa": "Representative desktop and mobile pages rendered with no horizontal overflow, loaded images, visible forms, and working mobile navigation."
+    "sitemap_url_count": 48,
+    "browser_responsive_qa": "Article archive, blog index, and representative article pages rendered with no horizontal overflow, visible mobile navigation, article metadata, article cards, and forms present."
   },
   "remaining_notes": [
     "Clarity was intentionally skipped per Bryan's instruction.",

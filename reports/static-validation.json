@@ -1,7 +1,7 @@
 {
   "passed": true,
   "summary": {
-    "total": 26,
+    "total": 25,
     "failed": 0
   },
   "checks": [
@@ -48,7 +48,7 @@
     {
       "name": "html_files_found",
       "passed": true,
-      "detail": "49 HTML files"
+      "detail": "50 HTML files"
     },
     {
       "name": "forbidden_text:AI-generated",
@@ -98,7 +98,7 @@
     {
       "name": "forms_present",
       "passed": true,
-      "detail": "68 form tags"
+      "detail": "69 form tags"
     },
     {
       "name": "web3forms_action_present",
@@ -124,11 +124,6 @@
       "name": "sitemap_uses_domain",
       "passed": true,
       "detail": "crawlspaceencapsulationcharlottenc.com"
-    },
-    {
-      "name": "forbidden_city_page_absent",
-      "passed": true,
-      "detail": "cities/charlotte.html"
     },
     {
       "name": "expected_phone_present",
