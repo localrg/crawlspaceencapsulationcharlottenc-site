@@ -74,21 +74,23 @@ Main read: the homepage was already a strong foundation, so the right move was n
 
 ## Deployment Proof
 
-- GitHub commit: `823c2658f6d39ec5a954a79e7f47b08bed61ed28`
+- GitHub commit: `8fbc8aa1a7acc74449601b391a59cd37ae14a55b`
 - Branch: `main`
-- Hostinger deploy evidence: `site-factory/run-logs/charlotte-extensionless-silo-retry-hostinger-deploy-20260618-150522.json`
-- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_150522.zip`
+- Hostinger deploy evidence: `site-factory/run-logs/charlotte-question-blog-urls-hostinger-deploy-20260618-160324.json`
+- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160324.zip`
 - Previous failed upload attempt: `site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json`
 - Upload failure note: the first Hostinger TUS PATCH returned 404, so the deploy helper was hardened to PATCH Hostinger's returned upload `Location` and retry fresh upload credentials.
 - Live homepage: 200 HTTPS
 - Live robots.txt: 200 HTTPS
 - Live sitemap.xml: 200 HTTPS
-- Live sitemap URL count: 48
+- Live sitemap URL count: 44
 - Live article library: https://crawlspaceencapsulationcharlottenc.com/blog/
-- Live local article archive: https://crawlspaceencapsulationcharlottenc.com/local/
+- Old local article archive redirects to: https://crawlspaceencapsulationcharlottenc.com/blog/
 - Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/blog/how-do-you-control-moisture-in-a-crawl-space
 - Verified clean local article: https://crawlspaceencapsulationcharlottenc.com/blog/why-do-charlotte-crawl-spaces-have-moisture-problems
-- Verified old `.html` redirects: representative article, service, city, and privacy-policy URLs 301 to extensionless URLs.
+- Verified question post examples: `/blog/why-does-my-crawl-space-smell-musty`, `/blog/how-much-does-crawl-space-encapsulation-cost-in-charlotte`, and `/blog/why-do-charlotte-crawl-spaces-have-moisture-problems` return 200.
+- Verified old article redirects: representative `local/`, `services/`, `problems/`, and `guides/` URLs 301 to matching `/blog/` question URLs.
+- Verified old `.html` redirects: representative article, service, city, and privacy-policy URLs redirect to clean URLs.
 - Verified Google exception: https://crawlspaceencapsulationcharlottenc.com/google0601bb32c31c28cd.html remains 200.
 
 ## Validation
@@ -105,7 +107,7 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Internal old article-folder reference count: 0
 - Authority uplink missing count: 0
 - Homepage authority uplink missing count on blog posts: 0
-- Browser QA: Pending live browser verification after question-based blog URL deployment. Local static and link validation passed; Playwright is not installed in this repo.
+- Browser QA: Live HTTP checks passed for the blog index and representative question posts. Playwright is not installed in this repo, so screenshot-based browser QA was not available.
 
 ## Notes
 

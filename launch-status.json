@@ -4,24 +4,25 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "question_based_blog_urls_ready_for_deploy",
-  "updated_at": "2026-06-18T20:01:57Z",
+  "current_phase": "question_based_blog_urls_deployed_verified",
+  "updated_at": "2026-06-18T20:04:32Z",
   "deployment": {
     "provider": "Hostinger static deploy",
-    "github_commit": "823c2658f6d39ec5a954a79e7f47b08bed61ed28",
+    "github_commit": "8fbc8aa1a7acc74449601b391a59cd37ae14a55b",
     "github_branch": "main",
-    "deploy_evidence": "site-factory/run-logs/charlotte-extensionless-silo-retry-hostinger-deploy-20260618-150522.json",
-    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_150522.zip",
+    "deploy_evidence": "site-factory/run-logs/charlotte-question-blog-urls-hostinger-deploy-20260618-160324.json",
+    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160324.zip",
     "previous_failed_attempt": "site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json",
     "previous_failure_note": "Initial Hostinger TUS upload PATCH returned 404; deploy helper was hardened to PATCH the returned upload Location and retry fresh upload credentials.",
     "https_home_verified": true,
     "robots_verified": true,
     "sitemap_verified": true,
-    "live_sitemap_url_count": 48,
+    "live_sitemap_url_count": 44,
     "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/how-do-you-control-moisture-in-a-crawl-space",
     "article_library_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/",
-    "local_article_category_verified": "https://crawlspaceencapsulationcharlottenc.com/local/",
+    "old_local_article_category_redirect_verified": "https://crawlspaceencapsulationcharlottenc.com/local/",
     "extensionless_url_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/why-do-charlotte-crawl-spaces-have-moisture-problems",
+    "old_article_url_redirect_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control",
     "html_redirects_verified": true,
     "google_verification_file_retained": true
   },
@@ -73,6 +74,7 @@
     },
     "question_based_blog_urls": {
       "ready_for_deploy": true,
+      "deployed": true,
       "post_count": 19,
       "public_post_path_pattern": "/blog/{question-slug}",
       "old_article_folders_redirected": [
@@ -106,7 +108,7 @@
     "sitemap_url_count": 44,
     "sitemap_html_url_count": 0,
     "sitemap_old_article_folder_url_count": 0,
-    "browser_responsive_qa": "Pending live browser verification after question-based blog URL deployment. Local static and link validation passed; Playwright is not installed in this repo."
+    "browser_responsive_qa": "Live HTTP checks passed for the blog index and representative question posts. Playwright is not installed in this repo, so screenshot-based browser QA was not available."
   },
   "remaining_notes": [
     "Clarity was intentionally skipped per Bryan's instruction.",
