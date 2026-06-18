@@ -52,17 +52,17 @@ Main read: the homepage was already a strong foundation, so the right move was n
 
 ## Deployment Proof
 
-- GitHub commit: `68236436e8f5e0ed480f5cd321207d9626c9d5a2`
+- GitHub commit: `30f2a4d9a61df6c71ef23c40c10a140c8988c037`
 - Branch: `main`
-- Hostinger deploy evidence: `site-factory/run-logs/charlotte-authority-cluster-hostinger-deploy-20260618-124457.json`
-- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_124457.zip`
+- Hostinger deploy evidence: `site-factory/run-logs/charlotte-article-library-hostinger-deploy-20260618-143900.json`
+- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_143900.zip`
 - Live homepage: 200 HTTPS
 - Live robots.txt: 200 HTTPS
 - Live sitemap.xml: 200 HTTPS
-- Live sitemap URL count: 47
+- Live sitemap URL count: 48
+- Live article library: https://crawlspaceencapsulationcharlottenc.com/blog/
+- Live local article archive: https://crawlspaceencapsulationcharlottenc.com/local/
 - Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html
-
-Article-library deployment is the next deploy step for this report revision.
 
 ## Validation
 

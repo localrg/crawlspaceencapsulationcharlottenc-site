@@ -4,20 +4,21 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "article_library_presentation_ready_for_deploy",
-  "updated_at": "2026-06-18T18:38:05Z",
+  "current_phase": "article_library_presentation_deployed_verified",
+  "updated_at": "2026-06-18T18:39:43Z",
   "deployment": {
     "provider": "Hostinger static deploy",
-    "github_commit": "68236436e8f5e0ed480f5cd321207d9626c9d5a2",
+    "github_commit": "30f2a4d9a61df6c71ef23c40c10a140c8988c037",
     "github_branch": "main",
-    "deploy_evidence": "site-factory/run-logs/charlotte-authority-cluster-hostinger-deploy-20260618-124457.json",
-    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_124457.zip",
+    "deploy_evidence": "site-factory/run-logs/charlotte-article-library-hostinger-deploy-20260618-143900.json",
+    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_143900.zip",
     "https_home_verified": true,
     "robots_verified": true,
     "sitemap_verified": true,
-    "live_sitemap_url_count": 47,
-    "pending_sitemap_url_count_after_article_library_deploy": 48,
-    "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html"
+    "live_sitemap_url_count": 48,
+    "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html",
+    "article_library_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/",
+    "local_article_category_verified": "https://crawlspaceencapsulationcharlottenc.com/local/"
   },
   "seo": {
     "onpage_ai_homepage_scan": {
