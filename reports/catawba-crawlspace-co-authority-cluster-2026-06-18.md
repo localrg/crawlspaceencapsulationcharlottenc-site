@@ -50,6 +50,18 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Updated the sitemap to 48 public indexable URLs after adding `/blog/`.
 - Bumped the stylesheet cache key to `styles.css?v=20260618-blogposts`.
 
+## Question-Based Blog URL Correction
+
+- Moved the 19 supporting authority posts to question-style `/blog/` permalinks.
+- Changed blog titles and H1s from category/service-style labels to informational questions, such as `Why Does My Crawl Space Smell Musty?`, `How Much Does Crawl Space Encapsulation Cost in Charlotte?`, and `Why Do Charlotte Crawl Spaces Have Moisture Problems?`.
+- Removed `services/`, `problems/`, `guides/`, and `local/` article category archives from the sitemap and internal article navigation.
+- Added `.htaccess` 301 redirects from every old article URL under `services/`, `problems/`, `guides/`, and `local/` to the matching new `/blog/` URL.
+- Redirected the old article-category archive paths to `/blog/`.
+- Kept the homepage authority link on each blog post with the anchor `Crawlspace Encapsulation in Charlotte NC`.
+- Updated the blog archive to group posts as service questions, problem questions, decision questions, and Charlotte moisture questions.
+- Updated the sitemap to 44 public indexable URLs.
+- Bumped the stylesheet cache key to `styles.css?v=20260618-blogquestions`.
+
 ## Extensionless URL and Authority Silo Correction
 
 - Removed `.html` from public canonical URLs, Open Graph URLs, sitemap URLs, footer links, article links, city links, and form redirect targets.
@@ -58,7 +70,7 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Added homepage authority uplink sections to 44 supporting pages and archives.
 - Used the homepage anchor text `Crawlspace Encapsulation in Charlotte NC` from supporting service, problem, guide, local, blog, and city pages.
 - Kept supporting pages linked into the article/service structure while rolling the primary crawlspace authority back toward the homepage.
-- Bumped the stylesheet cache key to `styles.css?v=20260618-extensionless`.
+- Bumped the stylesheet cache key to `styles.css?v=20260618-blogquestions`.
 
 ## Deployment Proof
 
@@ -74,8 +86,8 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Live sitemap URL count: 48
 - Live article library: https://crawlspaceencapsulationcharlottenc.com/blog/
 - Live local article archive: https://crawlspaceencapsulationcharlottenc.com/local/
-- Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control
-- Verified clean local article: https://crawlspaceencapsulationcharlottenc.com/local/charlotte-clay-soil-crawlspace-moisture
+- Verified live authority page: https://crawlspaceencapsulationcharlottenc.com/blog/how-do-you-control-moisture-in-a-crawl-space
+- Verified clean local article: https://crawlspaceencapsulationcharlottenc.com/blog/why-do-charlotte-crawl-spaces-have-moisture-problems
 - Verified old `.html` redirects: representative article, service, city, and privacy-policy URLs 301 to extensionless URLs.
 - Verified Google exception: https://crawlspaceencapsulationcharlottenc.com/google0601bb32c31c28cd.html remains 200.
 
@@ -84,14 +96,16 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Static validation: passed
 - Validation file: `reports/static-validation.json`
 - Checks: 25 total, 0 failed
-- Local HTML files: 50
-- Sitemap URLs: 48
+- Local HTML files: 46
+- Blog post files: 19
+- Sitemap URLs: 44
 - Sitemap `.html` URL count: 0
 - Internal link missing count: 0
 - Internal `.html` reference count: 0
+- Internal old article-folder reference count: 0
 - Authority uplink missing count: 0
-- Homepage authority uplink pages: 44
-- Browser QA: article archive, blog index, and representative article pages rendered without horizontal overflow, with visible article metadata, article cards, forms present, and mobile navigation visible.
+- Homepage authority uplink missing count on blog posts: 0
+- Browser QA: Pending live browser verification after question-based blog URL deployment. Local static and link validation passed; Playwright is not installed in this repo.
 
 ## Notes
 

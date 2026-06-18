@@ -1,134 +1,134 @@
 {
-    "passed": true,
-    "summary": {
-        "total": 25,
-        "failed": 0
+  "passed": true,
+  "summary": {
+    "total": 25,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "name": "site_root_exists",
+      "passed": true,
+      "detail": "/Users/bryanking/Bryan Project Management/LRG/crawlspaceencapsulationcharlottenc-site"
     },
-    "checks": [
-        {
-            "name": "site_root_exists",
-            "passed": true,
-            "detail": "/Users/bryanking/Bryan Project Management/LRG/crawlspaceencapsulationcharlottenc-site"
-        },
-        {
-            "name": "required_file:index.html",
-            "passed": true,
-            "detail": "index.html"
-        },
-        {
-            "name": "required_file:styles.css",
-            "passed": true,
-            "detail": "styles.css"
-        },
-        {
-            "name": "required_file:sitemap.xml",
-            "passed": true,
-            "detail": "sitemap.xml"
-        },
-        {
-            "name": "required_file:privacy-policy.html",
-            "passed": true,
-            "detail": "privacy-policy.html"
-        },
-        {
-            "name": "required_file:terms-of-service.html",
-            "passed": true,
-            "detail": "terms-of-service.html"
-        },
-        {
-            "name": "required_file:thank-you.html",
-            "passed": true,
-            "detail": "thank-you.html"
-        },
-        {
-            "name": "cities_directory_exists",
-            "passed": true,
-            "detail": "cities/"
-        },
-        {
-            "name": "html_files_found",
-            "passed": true,
-            "detail": "50 HTML files"
-        },
-        {
-            "name": "forbidden_text:AI-generated",
-            "passed": true,
-            "detail": "AI-generated"
-        },
-        {
-            "name": "forbidden_text:AI generated",
-            "passed": true,
-            "detail": "AI generated"
-        },
-        {
-            "name": "forbidden_text:ChatGPT",
-            "passed": true,
-            "detail": "ChatGPT"
-        },
-        {
-            "name": "forbidden_text:placeholder copy",
-            "passed": true,
-            "detail": "placeholder copy"
-        },
-        {
-            "name": "placeholder_absent:WEB3FORMS_ACCESS_KEY",
-            "passed": true,
-            "detail": "WEB3FORMS_ACCESS_KEY"
-        },
-        {
-            "name": "placeholder_absent:YOUR_ACCESS_KEY_HERE",
-            "passed": true,
-            "detail": "YOUR_ACCESS_KEY_HERE"
-        },
-        {
-            "name": "placeholder_absent:CLARITY_PROJECT_ID",
-            "passed": true,
-            "detail": "CLARITY_PROJECT_ID"
-        },
-        {
-            "name": "placeholder_absent:CALLRAIL_PHONE_PLACEHOLDER",
-            "passed": true,
-            "detail": "CALLRAIL_PHONE_PLACEHOLDER"
-        },
-        {
-            "name": "placeholder_absent:TODO",
-            "passed": true,
-            "detail": "TODO"
-        },
-        {
-            "name": "forms_present",
-            "passed": true,
-            "detail": "69 form tags"
-        },
-        {
-            "name": "web3forms_action_present",
-            "passed": true,
-            "detail": "Web3Forms submit endpoint"
-        },
-        {
-            "name": "redirect_field_present",
-            "passed": true,
-            "detail": "hidden redirect field"
-        },
-        {
-            "name": "thank_you_noindex",
-            "passed": true,
-            "detail": "thank-you.html should be noindex,nofollow"
-        },
-        {
-            "name": "thank_you_excluded_from_sitemap",
-            "passed": true,
-            "detail": "thank-you.html excluded"
-        },
-        {
-            "name": "sitemap_uses_domain",
-            "passed": true,
-            "detail": "crawlspaceencapsulationcharlottenc.com"
-        },
-        {
-            "name": "expected_phone_present",
-            "passed": true,
-            "detail": "704-276-6624"
-        }
-    ]
+    {
+      "name": "required_file:index.html",
+      "passed": true,
+      "detail": "index.html"
+    },
+    {
+      "name": "required_file:styles.css",
+      "passed": true,
+      "detail": "styles.css"
+    },
+    {
+      "name": "required_file:sitemap.xml",
+      "passed": true,
+      "detail": "sitemap.xml"
+    },
+    {
+      "name": "required_file:privacy-policy.html",
+      "passed": true,
+      "detail": "privacy-policy.html"
+    },
+    {
+      "name": "required_file:terms-of-service.html",
+      "passed": true,
+      "detail": "terms-of-service.html"
+    },
+    {
+      "name": "required_file:thank-you.html",
+      "passed": true,
+      "detail": "thank-you.html"
+    },
+    {
+      "name": "cities_directory_exists",
+      "passed": true,
+      "detail": "cities/"
+    },
+    {
+      "name": "html_files_found",
+      "passed": true,
+      "detail": "46 HTML files"
+    },
+    {
+      "name": "forbidden_text:AI-generated",
+      "passed": true,
+      "detail": "AI-generated"
+    },
+    {
+      "name": "forbidden_text:AI generated",
+      "passed": true,
+      "detail": "AI generated"
+    },
+    {
+      "name": "forbidden_text:ChatGPT",
+      "passed": true,
+      "detail": "ChatGPT"
+    },
+    {
+      "name": "forbidden_text:placeholder copy",
+      "passed": true,
+      "detail": "placeholder copy"
+    },
+    {
+      "name": "placeholder_absent:WEB3FORMS_ACCESS_KEY",
+      "passed": true,
+      "detail": "WEB3FORMS_ACCESS_KEY"
+    },
+    {
+      "name": "placeholder_absent:YOUR_ACCESS_KEY_HERE",
+      "passed": true,
+      "detail": "YOUR_ACCESS_KEY_HERE"
+    },
+    {
+      "name": "placeholder_absent:CLARITY_PROJECT_ID",
+      "passed": true,
+      "detail": "CLARITY_PROJECT_ID"
+    },
+    {
+      "name": "placeholder_absent:CALLRAIL_PHONE_PLACEHOLDER",
+      "passed": true,
+      "detail": "CALLRAIL_PHONE_PLACEHOLDER"
+    },
+    {
+      "name": "placeholder_absent:TODO",
+      "passed": true,
+      "detail": "TODO"
+    },
+    {
+      "name": "forms_present",
+      "passed": true,
+      "detail": "65 form tags"
+    },
+    {
+      "name": "web3forms_action_present",
+      "passed": true,
+      "detail": "Web3Forms submit endpoint"
+    },
+    {
+      "name": "redirect_field_present",
+      "passed": true,
+      "detail": "hidden redirect field"
+    },
+    {
+      "name": "thank_you_noindex",
+      "passed": true,
+      "detail": "thank-you.html should be noindex,nofollow"
+    },
+    {
+      "name": "thank_you_excluded_from_sitemap",
+      "passed": true,
+      "detail": "thank-you.html excluded"
+    },
+    {
+      "name": "sitemap_uses_domain",
+      "passed": true,
+      "detail": "crawlspaceencapsulationcharlottenc.com"
+    },
+    {
+      "name": "expected_phone_present",
+      "passed": true,
+      "detail": "704-276-6624"
+    }
+  ]
 }

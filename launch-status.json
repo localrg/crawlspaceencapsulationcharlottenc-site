@@ -4,8 +4,8 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "extensionless_urls_and_homepage_silo_deployed_verified",
-  "updated_at": "2026-06-18T19:06:50Z",
+  "current_phase": "question_based_blog_urls_ready_for_deploy",
+  "updated_at": "2026-06-18T20:01:57Z",
   "deployment": {
     "provider": "Hostinger static deploy",
     "github_commit": "823c2658f6d39ec5a954a79e7f47b08bed61ed28",
@@ -18,10 +18,10 @@
     "robots_verified": true,
     "sitemap_verified": true,
     "live_sitemap_url_count": 48,
-    "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control",
+    "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/how-do-you-control-moisture-in-a-crawl-space",
     "article_library_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/",
     "local_article_category_verified": "https://crawlspaceencapsulationcharlottenc.com/local/",
-    "extensionless_url_verified": "https://crawlspaceencapsulationcharlottenc.com/local/charlotte-clay-soil-crawlspace-moisture",
+    "extensionless_url_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/why-do-charlotte-crawl-spaces-have-moisture-problems",
     "html_redirects_verified": true,
     "google_verification_file_retained": true
   },
@@ -69,7 +69,27 @@
       "html_redirects_to_extensionless": true,
       "google_verification_html_exception": true,
       "homepage_authority_uplink_pages": 44,
-      "stylesheet_cache_key": "styles.css?v=20260618-extensionless"
+      "stylesheet_cache_key": "styles.css?v=20260618-blogquestions"
+    },
+    "question_based_blog_urls": {
+      "ready_for_deploy": true,
+      "post_count": 19,
+      "public_post_path_pattern": "/blog/{question-slug}",
+      "old_article_folders_redirected": [
+        "services",
+        "problems",
+        "guides",
+        "local"
+      ],
+      "removed_category_archives_from_sitemap": true,
+      "question_groups": [
+        "service questions",
+        "problem questions",
+        "decision questions",
+        "Charlotte moisture questions"
+      ],
+      "homepage_authority_link_from_each_post": true,
+      "stylesheet_cache_key": "styles.css?v=20260618-blogquestions"
     }
   },
   "validation": {
@@ -77,13 +97,16 @@
     "static_validation_passed": true,
     "static_validation_total_checks": 25,
     "static_validation_failed_checks": 0,
-    "local_html_files": 50,
+    "local_html_files": 46,
+    "blog_post_files": 19,
     "internal_link_missing_count": 0,
     "internal_html_reference_count": 0,
+    "old_article_folder_internal_reference_count": 0,
     "authority_uplink_missing_count": 0,
-    "sitemap_url_count": 48,
+    "sitemap_url_count": 44,
     "sitemap_html_url_count": 0,
-    "browser_responsive_qa": "Article archive, blog index, and representative article pages rendered with no horizontal overflow, visible mobile navigation, article metadata, article cards, and forms present."
+    "sitemap_old_article_folder_url_count": 0,
+    "browser_responsive_qa": "Pending live browser verification after question-based blog URL deployment. Local static and link validation passed; Playwright is not installed in this repo."
   },
   "remaining_notes": [
     "Clarity was intentionally skipped per Bryan's instruction.",
