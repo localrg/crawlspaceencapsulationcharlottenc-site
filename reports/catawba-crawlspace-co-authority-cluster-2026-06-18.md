@@ -72,12 +72,21 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Kept supporting pages linked into the article/service structure while rolling the primary crawlspace authority back toward the homepage.
 - Bumped the stylesheet cache key to `styles.css?v=20260618-blogquestions`.
 
+## Blog Scaffold Copy Cleanup
+
+- Removed internal SEO/scaffold phrasing from the blog posts and city authority blocks.
+- Replaced `This blog post supports the main crawlspace encapsulation page...` with homeowner-facing copy about inspecting the crawl space and deciding whether encapsulation, drainage, vapor barrier work, insulation changes, or humidity control make sense.
+- Replaced generic hero-panel copy like `This article explains one part of the crawl space decision...` with a natural `Short answer` panel.
+- Replaced repeated placeholder card copy like `This detail helps connect the visible crawl space condition...` with more reader-facing inspection language.
+- Fixed a related-card label that was displaying `cities/` as visible text.
+- Preserved the homepage authority link on each blog post.
+
 ## Deployment Proof
 
-- GitHub commit: `8fbc8aa1a7acc74449601b391a59cd37ae14a55b`
+- GitHub commit: `3aefe9b15c2b9c8a28642b2b5c2b2eab9f371768`
 - Branch: `main`
-- Hostinger deploy evidence: `site-factory/run-logs/charlotte-question-blog-urls-hostinger-deploy-20260618-160324.json`
-- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160324.zip`
+- Hostinger deploy evidence: `site-factory/run-logs/charlotte-blog-copy-cleanup-hostinger-deploy-20260618-160942.json`
+- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160942.zip`
 - Previous failed upload attempt: `site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json`
 - Upload failure note: the first Hostinger TUS PATCH returned 404, so the deploy helper was hardened to PATCH Hostinger's returned upload `Location` and retry fresh upload credentials.
 - Live homepage: 200 HTTPS
@@ -91,6 +100,7 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Verified question post examples: `/blog/why-does-my-crawl-space-smell-musty`, `/blog/how-much-does-crawl-space-encapsulation-cost-in-charlotte`, and `/blog/why-do-charlotte-crawl-spaces-have-moisture-problems` return 200.
 - Verified old article redirects: representative `local/`, `services/`, `problems/`, and `guides/` URLs 301 to matching `/blog/` question URLs.
 - Verified old `.html` redirects: representative article, service, city, and privacy-policy URLs redirect to clean URLs.
+- Verified scaffold copy cleanup: representative live blog and city pages no longer include the internal-support/scaffold phrases.
 - Verified Google exception: https://crawlspaceencapsulationcharlottenc.com/google0601bb32c31c28cd.html remains 200.
 
 ## Validation

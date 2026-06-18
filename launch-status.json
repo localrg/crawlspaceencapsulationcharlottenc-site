@@ -4,14 +4,14 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "question_based_blog_urls_deployed_verified",
-  "updated_at": "2026-06-18T20:04:32Z",
+  "current_phase": "blog_scaffold_copy_cleanup_deployed_verified",
+  "updated_at": "2026-06-18T20:10:42Z",
   "deployment": {
     "provider": "Hostinger static deploy",
-    "github_commit": "8fbc8aa1a7acc74449601b391a59cd37ae14a55b",
+    "github_commit": "3aefe9b15c2b9c8a28642b2b5c2b2eab9f371768",
     "github_branch": "main",
-    "deploy_evidence": "site-factory/run-logs/charlotte-question-blog-urls-hostinger-deploy-20260618-160324.json",
-    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160324.zip",
+    "deploy_evidence": "site-factory/run-logs/charlotte-blog-copy-cleanup-hostinger-deploy-20260618-160942.json",
+    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160942.zip",
     "previous_failed_attempt": "site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json",
     "previous_failure_note": "Initial Hostinger TUS upload PATCH returned 404; deploy helper was hardened to PATCH the returned upload Location and retry fresh upload credentials.",
     "https_home_verified": true,
@@ -23,6 +23,7 @@
     "old_local_article_category_redirect_verified": "https://crawlspaceencapsulationcharlottenc.com/local/",
     "extensionless_url_verified": "https://crawlspaceencapsulationcharlottenc.com/blog/why-do-charlotte-crawl-spaces-have-moisture-problems",
     "old_article_url_redirect_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control",
+    "scaffold_copy_cleanup_verified": true,
     "html_redirects_verified": true,
     "google_verification_file_retained": true
   },
@@ -92,6 +93,21 @@
       ],
       "homepage_authority_link_from_each_post": true,
       "stylesheet_cache_key": "styles.css?v=20260618-blogquestions"
+    },
+    "blog_scaffold_copy_cleanup": {
+      "deployed": true,
+      "removed_internal_scaffold_phrases": [
+        "This blog post supports the main crawlspace encapsulation page.",
+        "This article explains one part of the crawl space decision.",
+        "This detail helps connect the visible crawl space condition."
+      ],
+      "homepage_authority_link_preserved": true,
+      "representative_live_pages_checked": [
+        "/blog/why-does-my-crawl-space-smell-musty",
+        "/blog/how-much-does-crawl-space-encapsulation-cost-in-charlotte",
+        "/blog/where-does-catawba-crawlspace-co-service-near-charlotte",
+        "/cities/belmont"
+      ]
     }
   },
   "validation": {
