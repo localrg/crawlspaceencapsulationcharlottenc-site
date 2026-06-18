@@ -4,14 +4,14 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "blog_scaffold_copy_cleanup_deployed_verified",
-  "updated_at": "2026-06-18T20:10:42Z",
+  "current_phase": "two_column_blog_template_deployed_verified",
+  "updated_at": "2026-06-18T20:23:41Z",
   "deployment": {
     "provider": "Hostinger static deploy",
-    "github_commit": "3aefe9b15c2b9c8a28642b2b5c2b2eab9f371768",
+    "github_commit": "4e82ec012616dfc3d7a96a450ed0565046e94a51",
     "github_branch": "main",
-    "deploy_evidence": "site-factory/run-logs/charlotte-blog-copy-cleanup-hostinger-deploy-20260618-160942.json",
-    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160942.zip",
+    "deploy_evidence": "site-factory/run-logs/charlotte-blog-template-hostinger-deploy-20260618-162147.json",
+    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_162147.zip",
     "previous_failed_attempt": "site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json",
     "previous_failure_note": "Initial Hostinger TUS upload PATCH returned 404; deploy helper was hardened to PATCH the returned upload Location and retry fresh upload credentials.",
     "https_home_verified": true,
@@ -25,7 +25,8 @@
     "old_article_url_redirect_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control",
     "scaffold_copy_cleanup_verified": true,
     "html_redirects_verified": true,
-    "google_verification_file_retained": true
+    "google_verification_file_retained": true,
+    "two_column_blog_template_verified": true
   },
   "seo": {
     "onpage_ai_homepage_scan": {
@@ -108,6 +109,26 @@
         "/blog/where-does-catawba-crawlspace-co-service-near-charlotte",
         "/cities/belmont"
       ]
+    },
+    "two_column_blog_template": {
+      "deployed": true,
+      "post_count": 19,
+      "public_post_path_pattern": "/blog/{question-slug}",
+      "template_sections": [
+        "hero",
+        "main article body",
+        "right sidebar"
+      ],
+      "left_column_percent": 66,
+      "sidebar_percent": 33,
+      "article_body_left_column_only": true,
+      "contact_form_in_sidebar": true,
+      "related_article_links_in_sidebar": true,
+      "homepage_internal_link_from_each_post": true,
+      "old_card_grid_removed_from_posts": true,
+      "old_authority_uplink_removed_from_posts": true,
+      "body_answers_question": true,
+      "stylesheet_cache_key": "styles.css?v=20260618-blogtemplate"
     }
   },
   "validation": {
@@ -124,7 +145,11 @@
     "sitemap_url_count": 44,
     "sitemap_html_url_count": 0,
     "sitemap_old_article_folder_url_count": 0,
-    "browser_responsive_qa": "Live HTTP checks passed for the blog index and representative question posts. Playwright is not installed in this repo, so screenshot-based browser QA was not available."
+    "browser_responsive_qa": "Live HTTP checks passed for representative question posts with blog-layout, blog-main, blog-sidebar, sidebar form, related links, homepage link, and no old scaffold phrases. Playwright is not installed in this repo, so screenshot-based browser QA was not available.",
+    "two_column_blog_template_missing_count": 0,
+    "blog_post_internal_link_missing_count": 0,
+    "blog_post_html_reference_count": 0,
+    "blog_post_old_scaffold_phrase_count": 0
   },
   "remaining_notes": [
     "Clarity was intentionally skipped per Bryan's instruction.",

@@ -81,12 +81,21 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Fixed a related-card label that was displaying `cities/` as visible text.
 - Preserved the homepage authority link on each blog post.
 
+## Two-Column Blog Template Correction
+
+- Rebuilt all 19 individual blog posts into a true article template: hero first, then one article section.
+- Changed the post body layout to a 66/33-style split: left column for the article answer, headings, and body copy; right sidebar for the contact form, homepage service link, related articles, phone, and address.
+- Removed the post-level authority uplink block, key-takeaway card grid, read-next card grid, and separate bottom contact section from the 19 individual posts.
+- Rewrote each post body so the visible content directly answers the question in the H1.
+- Preserved internal linking from each post to the homepage with `Crawlspace Encapsulation in Charlotte NC`.
+- Bumped the post stylesheet cache key to `styles.css?v=20260618-blogtemplate`.
+
 ## Deployment Proof
 
-- GitHub commit: `3aefe9b15c2b9c8a28642b2b5c2b2eab9f371768`
+- GitHub commit: `4e82ec012616dfc3d7a96a450ed0565046e94a51`
 - Branch: `main`
-- Hostinger deploy evidence: `site-factory/run-logs/charlotte-blog-copy-cleanup-hostinger-deploy-20260618-160942.json`
-- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_160942.zip`
+- Hostinger deploy evidence: `site-factory/run-logs/charlotte-blog-template-hostinger-deploy-20260618-162147.json`
+- Deploy archive: `site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_162147.zip`
 - Previous failed upload attempt: `site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json`
 - Upload failure note: the first Hostinger TUS PATCH returned 404, so the deploy helper was hardened to PATCH Hostinger's returned upload `Location` and retry fresh upload credentials.
 - Live homepage: 200 HTTPS
@@ -101,6 +110,7 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Verified old article redirects: representative `local/`, `services/`, `problems/`, and `guides/` URLs 301 to matching `/blog/` question URLs.
 - Verified old `.html` redirects: representative article, service, city, and privacy-policy URLs redirect to clean URLs.
 - Verified scaffold copy cleanup: representative live blog and city pages no longer include the internal-support/scaffold phrases.
+- Verified two-column blog template: representative live posts contain `blog-layout`, `blog-main`, `blog-sidebar`, sidebar form, related links, homepage link, and no old scaffold/card-section phrases.
 - Verified Google exception: https://crawlspaceencapsulationcharlottenc.com/google0601bb32c31c28cd.html remains 200.
 
 ## Validation
@@ -117,6 +127,8 @@ Main read: the homepage was already a strong foundation, so the right move was n
 - Internal old article-folder reference count: 0
 - Authority uplink missing count: 0
 - Homepage authority uplink missing count on blog posts: 0
+- Two-column blog template missing count: 0
+- Blog post old scaffold phrase count: 0
 - Browser QA: Live HTTP checks passed for the blog index and representative question posts. Playwright is not installed in this repo, so screenshot-based browser QA was not available.
 
 ## Notes
