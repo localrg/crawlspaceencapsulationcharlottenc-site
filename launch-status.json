@@ -1,0 +1,60 @@
+{
+  "site_id": "crawlspace-charlotte-nc",
+  "brand_name": "Catawba Crawlspace Co.",
+  "domain": "crawlspaceencapsulationcharlottenc.com",
+  "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
+  "status": "complete",
+  "current_phase": "topical_authority_cluster_deployed_verified",
+  "updated_at": "2026-06-18T16:47:48Z",
+  "deployment": {
+    "provider": "Hostinger static deploy",
+    "github_commit": "68236436e8f5e0ed480f5cd321207d9626c9d5a2",
+    "github_branch": "main",
+    "deploy_evidence": "site-factory/run-logs/charlotte-authority-cluster-hostinger-deploy-20260618-124457.json",
+    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_124457.zip",
+    "https_home_verified": true,
+    "robots_verified": true,
+    "sitemap_verified": true,
+    "live_sitemap_url_count": 47,
+    "new_authority_page_verified": "https://crawlspaceencapsulationcharlottenc.com/services/crawl-space-moisture-control.html"
+  },
+  "seo": {
+    "onpage_ai_homepage_scan": {
+      "keyword": "crawlspace encapsulation charlotte nc",
+      "job_display_id": "job_759bd3e0...e191",
+      "score": 87,
+      "grade": "Strong",
+      "powered_by": "On-Page.ai",
+      "primary_takeaway": "Homepage foundation was already strong; the main gap was topical authority and entity coverage depth."
+    },
+    "topical_authority_cluster": {
+      "deployed": true,
+      "new_pages": 23,
+      "hubs": [
+        "services",
+        "problems",
+        "guides",
+        "local"
+      ],
+      "patterns_covered": [
+        "core crawl space services",
+        "crawl space moisture problems",
+        "cost and decision pages",
+        "Charlotte local proof pages"
+      ]
+    }
+  },
+  "validation": {
+    "static_validation": "reports/static-validation.json",
+    "static_validation_passed": true,
+    "static_validation_total_checks": 26,
+    "static_validation_failed_checks": 0,
+    "local_html_files": 49,
+    "internal_link_missing_count": 0,
+    "browser_responsive_qa": "Representative desktop and mobile pages rendered with no horizontal overflow, loaded images, visible forms, and working mobile navigation."
+  },
+  "remaining_notes": [
+    "Clarity was intentionally skipped per Bryan's instruction.",
+    "This pass completed the Charlotte topical authority cluster and live deployment. Citation/social profile work is separate from this content authority pass unless explicitly assigned."
+  ]
+}
