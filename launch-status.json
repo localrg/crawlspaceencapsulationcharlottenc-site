@@ -4,14 +4,16 @@
   "domain": "crawlspaceencapsulationcharlottenc.com",
   "live_url": "https://crawlspaceencapsulationcharlottenc.com/",
   "status": "complete",
-  "current_phase": "two_column_blog_template_deployed_verified",
-  "updated_at": "2026-06-18T20:23:41Z",
+  "current_phase": "address_gtag_deployed_verified",
+  "updated_at": "2026-06-23T14:24:41Z",
   "deployment": {
     "provider": "Hostinger static deploy",
     "github_commit": "4e82ec012616dfc3d7a96a450ed0565046e94a51",
     "github_branch": "main",
-    "deploy_evidence": "site-factory/run-logs/charlotte-blog-template-hostinger-deploy-20260618-162147.json",
-    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_162147.zip",
+    "deploy_evidence": "site-factory/run-logs/charlotte-address-gtag-hostinger-deploy-20260623-102344.json",
+    "deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260623_102344.zip",
+    "previous_deploy_evidence": "site-factory/run-logs/charlotte-blog-template-hostinger-deploy-20260618-162147.json",
+    "previous_deploy_archive": "site-factory/deploy-archives/crawlspaceencapsulationcharlottenc-site-public_20260618_162147.zip",
     "previous_failed_attempt": "site-factory/run-logs/charlotte-extensionless-silo-hostinger-deploy-20260618-150340.json",
     "previous_failure_note": "Initial Hostinger TUS upload PATCH returned 404; deploy helper was hardened to PATCH the returned upload Location and retry fresh upload credentials.",
     "https_home_verified": true,
@@ -26,7 +28,17 @@
     "scaffold_copy_cleanup_verified": true,
     "html_redirects_verified": true,
     "google_verification_file_retained": true,
-    "two_column_blog_template_verified": true
+    "two_column_blog_template_verified": true,
+    "address_update_verified": true,
+    "current_office_address": "3401 Brookshire Blvd, Charlotte, NC 28216",
+    "google_ads_tag_verified": true,
+    "google_ads_tag_id": "AW-18265337414",
+    "representative_live_address_ads_checks": [
+      "https://crawlspaceencapsulationcharlottenc.com/",
+      "https://crawlspaceencapsulationcharlottenc.com/blog/why-is-my-crawl-space-wet",
+      "https://crawlspaceencapsulationcharlottenc.com/cities/gastonia",
+      "https://crawlspaceencapsulationcharlottenc.com/thank-you"
+    ]
   },
   "seo": {
     "onpage_ai_homepage_scan": {
@@ -149,7 +161,17 @@
     "two_column_blog_template_missing_count": 0,
     "blog_post_internal_link_missing_count": 0,
     "blog_post_html_reference_count": 0,
-    "blog_post_old_scaffold_phrase_count": 0
+    "blog_post_old_scaffold_phrase_count": 0,
+    "ads_tag_html_pages": 46,
+    "old_address_html_pages": 0,
+    "representative_live_old_address_count": 0
+  },
+  "vendasta": {
+    "account_id": "AG-T7F7DRC6KM",
+    "address_update_verified": true,
+    "current_address": "3401 Brookshire Blvd, Charlotte, NC 28216",
+    "geo_coordinate_verified": true,
+    "evidence": "site-factory/run-logs/charlotte-vendasta-address-update-20260623-1027.json"
   },
   "remaining_notes": [
     "Clarity was intentionally skipped per Bryan's instruction.",

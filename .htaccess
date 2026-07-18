@@ -6,12 +6,15 @@ RewriteCond %{HTTPS} !=on [OR]
 RewriteCond %{HTTP_HOST} ^www\.crawlspaceencapsulationcharlottenc\.com$ [NC]
 RewriteRule ^(.*)$ https://crawlspaceencapsulationcharlottenc.com/$1 [R=301,L]
 
-RewriteRule ^services/crawl-space-inspection(?:\.html)?$ /blog/what-happens-during-a-crawl-space-inspection [R=301,L]
+# --- City consolidation: thin town pages -> nearest kept hub (covers .html + extensionless in one hop) ---
+RewriteRule ^cities/(belmont|mount-holly|cramerton|mcadenville|lowell|ranlo|dallas|bessemer-city|cherryville|high-shoals|stanley|spencer-mountain|kings-mountain)(?:\.html)?/?$ /cities/gastonia [R=301,L]
+RewriteRule ^cities/(cornelius|davidson)(?:\.html)?/?$ /cities/huntersville [R=301,L]
+
+# --- Legacy planned-URL redirects (never real pages) -> matching blog answers ---
 RewriteRule ^services/vapor-barrier-installation(?:\.html)?$ /blog/do-i-need-a-vapor-barrier-in-my-crawl-space [R=301,L]
 RewriteRule ^services/crawl-space-moisture-control(?:\.html)?$ /blog/how-do-you-control-moisture-in-a-crawl-space [R=301,L]
 RewriteRule ^services/crawl-space-waterproofing-drainage(?:\.html)?$ /blog/how-do-you-waterproof-a-crawl-space-with-drainage [R=301,L]
 RewriteRule ^services/crawl-space-dehumidifiers(?:\.html)?$ /blog/does-my-crawl-space-need-a-dehumidifier [R=301,L]
-RewriteRule ^services/crawl-space-insulation(?:\.html)?$ /blog/should-crawl-space-insulation-be-replaced-after-encapsulation [R=301,L]
 RewriteRule ^problems/wet-crawl-space(?:\.html)?$ /blog/why-is-my-crawl-space-wet [R=301,L]
 RewriteRule ^problems/mold-smell(?:\.html)?$ /blog/why-does-my-crawl-space-smell-musty [R=301,L]
 RewriteRule ^problems/standing-water(?:\.html)?$ /blog/what-causes-standing-water-in-a-crawl-space [R=301,L]
@@ -25,7 +28,7 @@ RewriteRule ^guides/is-crawlspace-encapsulation-worth-it(?:\.html)?$ /blog/is-cr
 RewriteRule ^local/charlotte-clay-soil-crawlspace-moisture(?:\.html)?$ /blog/why-do-charlotte-crawl-spaces-have-moisture-problems [R=301,L]
 RewriteRule ^local/charlotte-crawlspace-project-planning-example(?:\.html)?$ /blog/what-does-a-crawl-space-encapsulation-plan-include [R=301,L]
 RewriteRule ^local/gaston-mecklenburg-crawlspace-service-area(?:\.html)?$ /blog/where-does-catawba-crawlspace-co-service-near-charlotte [R=301,L]
-RewriteRule ^(?:services|problems|guides|local)(?:/index\.html|/)?$ /blog/ [R=301,L]
+RewriteRule ^(?:problems|guides|local)(?:/index\.html|/)?$ /blog/ [R=301,L]
 
 RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
 RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
