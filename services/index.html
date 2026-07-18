@@ -197,10 +197,9 @@
       <span><a href="/">Home</a> | <a href="/services/">Services</a> | <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a> | <a href="tel:+17042766624">704-276-6624</a> | 3401 Brookshire Blvd, Charlotte, NC 28216</span>
     </div>
   </footer>
-<!-- GHL-LEADFORM-EMBED (Catawba Crawlspace) -->
-<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+<!-- GHL-LEADFORM-EMBED (Catawba Crawlspace) — lazy load on first interaction -->
 <script>
-(function(){var FID='hFwt6lKnGPVQwTPDM5st';var n=0;function swap(){document.querySelectorAll('form.form,#hero-form,form.hero-form').forEach(function(f){if(f.dataset.ghlSwapped)return;f.dataset.ghlSwapped='1';var id=f.id?f.id:('inline-'+FID+'-'+(++n));var i=document.createElement('iframe');i.src='https://api.leadconnectorhq.com/widget/form/'+FID;i.style.cssText='width:100%;min-height:640px;border:none;border-radius:8px';i.id=id;i.title='Free Quote Request';i.setAttribute('data-layout',"{'id':'INLINE'}");i.setAttribute('data-form-id',FID);i.setAttribute('data-height','674');i.setAttribute('data-layout-iframe-id',id);f.parentNode.replaceChild(i,f);});}if(document.readyState!=='loading')swap();else document.addEventListener('DOMContentLoaded',swap);})();
+(function(){var FID='hFwt6lKnGPVQwTPDM5st',SEL='form.form,#hero-form,form.hero-form',n=0,done=false;function build(f){if(f.dataset.ghlSwapped)return;f.dataset.ghlSwapped='1';var id=f.id?f.id:('inline-'+FID+'-'+(++n));var i=document.createElement('iframe');i.src='https://api.leadconnectorhq.com/widget/form/'+FID;i.style.cssText='width:100%;min-height:640px;border:none;border-radius:8px';i.id=id;i.title='Free Quote Request';i.setAttribute('data-layout',"{'id':'INLINE'}");i.setAttribute('data-form-id',FID);i.setAttribute('data-height','674');i.setAttribute('data-layout-iframe-id',id);f.parentNode.replaceChild(i,f);}var evts=['pointerdown','mousemove','touchstart','keydown','wheel','scroll'];function load(){if(done)return;done=true;evts.forEach(function(e){window.removeEventListener(e,load)});var s=document.createElement('script');s.src='https://link.msgsndr.com/js/form_embed.js';document.body.appendChild(s);document.querySelectorAll(SEL).forEach(build);}evts.forEach(function(e){window.addEventListener(e,load,{passive:true})});})();
 </script>
 </body>
 </html>
